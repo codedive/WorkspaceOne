@@ -11,7 +11,7 @@
 
 body {
   background-color: var(--primary-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; /* flex not using bcse we have header here*/
   margin: 0;
 }
 
