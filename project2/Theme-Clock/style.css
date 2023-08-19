@@ -13,14 +13,14 @@ html {
     transition: all 0.5s ease-in;
   }
 
-  html.dark {
-    --primary-color: #fff;
-    --secondary-color: #333;
+  html.dark {/* if html has class dark bcse we are actually goin to  change with js to enable drk mode*/
+    --primary-color: #fff; /* bcse we have iff scopes for diff variable*/
+    --secondary-color: #333;/*primary color is like hands of clock and stuff like that text*/
   }
   
-  html.dark {
+  html.dark { 
     background-color: #111;
-    color: var(--primary-color);
+    color: var(--primary-color);/*text color  whic is white bcse on that scope is white everywhere else primary color will be black*/
   }
   
   body {
@@ -35,7 +35,7 @@ html {
   
   .toggle {
     cursor: pointer;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color);/*black*/
     color: var(--secondary-color);
     border: 0;
     border-radius: 4px;
@@ -68,7 +68,7 @@ html {
     left: 50%;
     height: 65px;
     width: 3px;
-    transform-origin: bottom center;
+    transform-origin: bottom center; /*bcse we are going to roate  these needles*/
     transition: all 0.5s ease-in;
   }
   
@@ -77,8 +77,9 @@ html {
   }
   
   .needle.minute {
-    transform: translate(-50%, -100%) rotate(0deg);
-    height: 100px;
+    transform: translate(-50%, -100%) rotate(0deg);/*bcse we want it at middle on x axis bcse right now i mean it looks like its in middle but its the beginning in the middle*/
+     /*so -50 on x and then we want to move it up -100*/
+    height: 100px; /*minute key is longer*/
   }
   
   .needle.second {
@@ -94,7 +95,7 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /* for putting it directly at middle*/
     border-radius: 50%;
   }
   
