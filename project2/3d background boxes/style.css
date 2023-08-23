@@ -44,15 +44,15 @@ body {
 .boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-around; /* so to create chess board like space btw each box*/
   height: 500px;
-  width: 500px;
+  width: 500px;  /*125 *4*/
   position: relative;
   transition: 0.4s ease;
 }
 
 .boxes.big {
-  width: 600px;
+  width: 600px; /*will create horizantal space btw 3 long boxes*/
   height: 600px;
 }
 
