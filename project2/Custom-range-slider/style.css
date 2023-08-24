@@ -28,14 +28,14 @@ h2 {
 input[type='range'] {
   width: 300px;
   margin: 18px 0;
-  -webkit-appearance: none;
+  -webkit-appearance: none; /*range gyab ho jayegha then u can style*/
 }
 
 input[type='range']:focus {
   outline: none;
 }
 
-input[type='range'] + label {
+input[type='range'] + label {/*we want to put label above range*/
   background-color: #fff;
   position: absolute;
   top: -25px;
