@@ -1,8 +1,8 @@
-namespace API.Entities;
+namespace API.Entities;//this is not physical location its a logical thing
 
 public class AppUser
 {
-    public int ID {get; set;}
+    public int Id {get; set;}
 
     public string UserName {get; set;}
     //dot net code i using pascal case by default our api

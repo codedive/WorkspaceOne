@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>disable</Nullable>
+    <Nullable>disable</Nullable> 
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -12,7 +12,9 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.10" />
+
   </ItemGroup>
+
 
 
 </Project>
