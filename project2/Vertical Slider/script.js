@@ -10,7 +10,7 @@ const slidesLength = slideRight.querySelectorAll('div').length
 
 let activeSlideIndex = 0
 
-slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`/* top m last wala jayenghe bcse 3-1=2 so 3 index wala top m jayegha */
+slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`/* top m last wala jayenghe jese he hum up wala button click krenghe bcse 4-1=3 so 3 index wala top m jayegha */
 /* - bcse initaillay nature flower is in pos in left and is going to go up and initail top value is going to be - */
 // after this flying eagle on left and pics of eagle on right
 
